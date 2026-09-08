@@ -1,0 +1,108 @@
+
+.MainSection{
+    width: 90%;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.MainSection_box{
+    margin-top: 5rem;
+    background-color: #1e1e1e;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 30rem;
+}
+
+.MainSection_box_heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.MainSection_box_input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #cff80b;
+    border-radius: .5rem;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+
+.MainSection_box_input input{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    color: #cff80b;
+    font-size: 1.2rem;
+}
+
+.MainSection_box_input button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    line-height: 0;
+    background-color: #cff80b;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-radius: .5rem;
+}
+
+.MainSection_box_btn{
+    background-color: #cff80b;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+}
+
+.MainSection_percent_row {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  padding-left: 2rem;
+}
+
+.MainSection_percent_btn {
+  background: #1e1e1e;
+  border: 1px solid #cff80b;
+  color: #cff80b;
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.3rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.MainSection_percent_btn:hover {
+  background: #cff80b;
+  color: #1e1e1e;
+}
+
+.MainSection_price_impact {
+  margin-top: 0.5rem;
+  padding: 0 2rem;
+  font-size: 0.9rem;
+  color: #888;
+  min-height: 1.2rem;
+}
+
+@media only screen and (max-width: 35em) {
+    .MainSection{
+        width: 95%;
+    }
+    .MainSection_box{
+        width: 95%;
+    }
+
+    .MainSection_box_input input{
+        width: 50%;
+    }
+}
